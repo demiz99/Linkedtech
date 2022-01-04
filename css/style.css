@@ -526,7 +526,7 @@ header .block .right a {
   color: #FFFFFF;
   margin-bottom: 10px;
 }
-.sec9 .block .about-the-store .text .links img:not(:last-child) {
+.sec9 .block .about-the-store .text .links a:not(:last-child) {
   margin-right: 19px;
 }
 .df {
