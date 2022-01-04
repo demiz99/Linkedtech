@@ -540,7 +540,7 @@ header{
                         opacity: 0.6;
                         margin-bottom: 12px;
                     }
-                    a{
+                    .link{
                     display: inline-block;
                     font-weight: 500;
                     font-size: 14px;
@@ -550,10 +550,11 @@ header{
                     }
 
                     .links{
-                        a{
-                            &:not(:last-child){
-                                margin-right: 19px;
-                            }
+                        .link-logos{
+                            display: inline-block;
+                                    &:not(:last-child){
+                                        margin-right: 19px;
+                                    }
                         }
                     }
                 }
